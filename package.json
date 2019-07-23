@@ -7,15 +7,30 @@
     "test": "jest"
   },
   "dependencies": {
-    "@react-native-community/cli": "^2.7.1",
-    "@react-native-community/cli-platform-ios": "^2.7.0",
+    "i18n-js": "^3.2.2",
+    "jest-haste-map": "^21.2.0",
     "launchdarkly-react-native-client-sdk": "2.0.0",
+    "lodash": "^4.17.11",
+    "moment": "git+https://github.com/tqc/moment.git#no-dynamic-import",
+    "pluralize": "^4.0.0",
+    "prop-types": "^15.5.10",
     "react": "16.8.3",
-    "react-native": "0.59.10"
+    "react-native": "0.59.10",
+    "react-native-awesome-card-io": "https://github.com/Kerumen/react-native-awesome-card-io.git",
+    "react-native-barcode-builder": "^1.0.2",
+    "react-native-camera": "^1.6.4",
+    "react-native-code-push": "5.3.5",
+    "react-native-device-info": "^0.21.5",
+    "react-native-fabric": "^0.5.0",
+    "react-native-fabric-crashlytics": "^0.1.8",
+    "react-native-fast-image": "^1.0.0",
+    "react-native-fbsdk": "^0.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/runtime": "^7.4.5",
+    "@react-native-community/cli": "^2.7.1",
+    "@react-native-community/cli-platform-ios": "^2.7.0",
     "babel-jest": "^24.8.0",
     "jest": "^24.8.0",
     "metro-react-native-babel-preset": "^0.54.1",
