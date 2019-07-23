@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* HelloReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HelloReactNativeTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -346,6 +345,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F6D62DEF120846E492CBA181 /* libLaunchdarklyReactNativeClient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libLaunchdarklyReactNativeClient.a; sourceTree = "<group>"; };
+		B7DC5C0A426D46F79E93DBC6 /* LaunchdarklyReactNativeClient.xcodeproj */ = {isa = PBXFileReference; name = "LaunchdarklyReactNativeClient.xcodeproj"; path = "../node_modules/launchdarkly-react-native-client-sdk/ios/LaunchdarklyReactNativeClient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -569,6 +569,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				B7DC5C0A426D46F79E93DBC6 /* LaunchdarklyReactNativeClient.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1252,6 +1253,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
+					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 				);
 				INFOPLIST_FILE = HelloReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1277,6 +1279,7 @@
 				COPY_PHASE_STRIP = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 				);
 				INFOPLIST_FILE = HelloReactNativeTests/Info.plist;
@@ -1306,6 +1309,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
+					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 				);
 				INFOPLIST_FILE = HelloReactNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1328,6 +1332,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 				);
 				INFOPLIST_FILE = HelloReactNative/Info.plist;
@@ -1357,6 +1362,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 				);
 				INFOPLIST_FILE = "HelloReactNative-tvOS/Info.plist";
@@ -1392,6 +1398,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
+					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 				);
 				INFOPLIST_FILE = "HelloReactNative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1425,6 +1432,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
+					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 				);
 				INFOPLIST_FILE = "HelloReactNative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1457,6 +1465,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 					"$(SRCROOT)/../node_modules/launchdarkly-react-native-client-sdk/ios",
 				);
 				INFOPLIST_FILE = "HelloReactNative-tvOSTests/Info.plist";
