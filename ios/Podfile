@@ -3,6 +3,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 #platform :ios, '12.0'
 
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
 target 'HelloReactNative' do
   rn_path = '../node_modules/react-native'
   rn_darkly_path = '../node_modules/launchdarkly-react-native-client-sdk/ios/'
@@ -32,7 +34,8 @@ target 'HelloReactNative' do
   #launchdarkly-react-native-client-sdk dependencies
 
   pod 'LaunchDarkly', '4.1.0'
-  
+
   pod 'LaunchdarklyReactNativeClient', path: rn_darkly_path
 
+  use_native_modules!
 end
