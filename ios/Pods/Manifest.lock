@@ -1,7 +1,10 @@
 PODS:
   - boost-for-react-native (1.63.0)
+  - Crashlytics (3.13.4):
+    - Fabric (~> 1.10.2)
   - DarklyEventSource (4.0.2)
   - DoubleConversion (1.1.6)
+  - Fabric (1.10.2)
   - FBSDKCoreKit (5.0.2):
     - FBSDKCoreKit/Basics (= 5.0.2)
     - FBSDKCoreKit/Core (= 5.0.2)
@@ -93,10 +96,16 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
+  - ReactNativeFabric (0.5.2):
+    - Crashlytics
+    - Fabric
+    - React
   - yoga (0.59.10.React)
 
 DEPENDENCIES:
+  - Crashlytics
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Fabric
   - FBSDKCoreKit
   - FBSDKLoginKit
   - FBSDKShareKit
@@ -118,12 +127,15 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - ReactNativeFabric (from `../node_modules/react-native-fabric`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - boost-for-react-native
+    - Crashlytics
     - DarklyEventSource
+    - Fabric
     - FBSDKCoreKit
     - FBSDKLoginKit
     - FBSDKShareKit
@@ -142,13 +154,17 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
   react-native-fbsdk:
     :path: "../node_modules/react-native-fbsdk"
+  ReactNativeFabric:
+    :path: "../node_modules/react-native-fabric"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
   DarklyEventSource: 9cc7d4b162c7bb9e4d58b1194c403dfc5628b941
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
   FBSDKCoreKit: 3e41c402eb64ea7799c71833ff9e5690f27b9c42
   FBSDKLoginKit: a88f36da648e4c5d60eb261c63eac067abb97130
   FBSDKShareKit: 8695bbb97c18a381bbf2851a3f24f95a59121b82
@@ -158,8 +174,9 @@ SPEC CHECKSUMS:
   LaunchdarklyReactNativeClient: 2ddfc5650144c9d5b0df630a9a151f8711fe8951
   React: 36d0768f9e93be2473b37e7fa64f92c1d5341eef
   react-native-fbsdk: 38ee580e77319d03f8ed0bf4a020cbfd70dc4d2d
+  ReactNativeFabric: d05320ff347d5c72567c115b97edeead111ac4d2
   yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
 
-PODFILE CHECKSUM: 3c0299d010d3ff77a8e9894b7fbaa92866dc94ab
+PODFILE CHECKSUM: 027781bd45eb94572bd62680c5f06b753ca3a61e
 
 COCOAPODS: 1.7.0
