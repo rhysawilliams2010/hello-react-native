@@ -32,7 +32,12 @@ target 'HelloReactNative' do
   #launchdarkly-react-native-client-sdk dependencies
 
   pod 'LaunchDarkly', '4.1.0'
-  
+
   pod 'LaunchdarklyReactNativeClient', path: rn_darkly_path
+
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKLoginKit'
+  pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
 
 end
